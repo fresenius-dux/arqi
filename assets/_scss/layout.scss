@@ -1,0 +1,62 @@
+/*GLOBAL*/
+body.logged-in .navbar-fixed-top {top:32px;}
+.navbar-brand>img {
+    display:inline-block;
+    margin-top:-10px;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    background-color:#fff;
+    width:100%;
+    z-index: 99;
+}
+/*LAYOUT*/
+#page {
+    margin-top: 0px;
+}
+#LoginContainer, #MainContainer, #ResultsContainer {margin-top:30px;}
+#EndContainer {margin-top:130px;}
+
+#ResultsContainer, #EndContainer {width:470px;}
+#LoginContainer label {display: block;}
+#LoginContainer label, #LoginContainer button {margin-top:2%;}
+
+#MainContainer {padding-bottom:150px;}
+#MainContainer label {margin-right:5%;font-size:1em;}
+#MasterContainer .question, .result {border-radius:12px;background:#ccc;max-width:50%;border:12px solid #ccc;margin:150px auto 0;box-shadow:2px 2px 5px #000;position: relative;}
+.question .btn, .result .btn {
+    margin-top: 5px;
+    border: 1px solid #fff;
+}
+.question .arrow, .result .arrow {position: absolute;z-index: 99;}
+.question .arrow .triangle-down, .result .arrow .triangle-down {
+    width: 0;
+	height: 0;
+    border-left: 100px solid transparent;
+    border-right: 93px solid transparent;
+    border-top-width: 50px;
+    border-top-style: solid;
+}
+.question .arrow .rectangle, .result .arrow .rectangle {
+    width: 100%;
+	height: 70px;
+}
+.question .arrow.arrow-green .triangle-down, .result .arrow.arrow-green .triangle-down {border-top-color:#449d44;}
+.question .arrow.arrow-green .rectangle, .result .arrow.arrow-green .rectangle {background-color:#449d44;}
+.question .arrow.arrow-red .triangle-down, .result .arrow.arrow-red .triangle-down {border-top-color:#d9534f;}
+.question .arrow.arrow-red .rectangle, .result .arrow.arrow-red .rectangle {background-color:#d9534f;}
+.question .arrow.arrow-blue .triangle-down, .result .arrow.arrow-blue .triangle-down {border-top-color:#337ab7;}
+.question .arrow.arrow-blue .rectangle, .result .arrow.arrow-blue .rectangle {background-color:#337ab7;}
+
+.question .questionHeader, .result .questionHeader {background:#f4f4f4;border-radius:10px;margin:0 auto;}
+
+#ResultsContainer .btn {width:195px;}
+#ResultsContainer .arrow {left:126px;}
+/*HELPER CLASSES*/
+/*Layout*/
+.d-block {display:block !important;}
+.d-inline-block {display:inline-block !important;}
+.d-inline {display:inline !important;}
+.margin-auto {margin:0 auto;}
+.margin-top-none {margin-top:0 !important;}
