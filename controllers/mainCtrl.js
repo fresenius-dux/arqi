@@ -77,7 +77,42 @@ app
                     });
             }
 
-            
+            $scope.sendEmail = function() {
+                if ($scope.resultsTitle) {
+                    $scope.resultsTitle = $scope.resultsTitle;
+                }
+                else if ($scope.resultsTitle == "") {
+                    $scope.resultsTitle = "Survey Not Completed";
+                }
+                  $scope.userData = {
+                    "userEmail": $scope.email,
+                    "todaysDate": $scope.date,
+                    "timeNow": $scope.time,
+                    "question1": $scope.question1.toString(),
+                    "question2": $scope.question2.toString(),
+                    "question3": $scope.question3.toString(),
+                    "question4": $scope.question4.toString(),
+                    "question5": $scope.question5.toString(),
+                    "question6": $scope.question6.toString(),
+                    "question7": $scope.question7.toString(),
+                    "question8": $scope.question8.toString(),
+                    "question9": $scope.question9.toString(),
+                    "question10": $scope.question10.toString(),
+                    "endResult": $scope.resultsTitle
+                  };
+                  $log.info($scope.userData);
+                    
+                  $http({
+                        method: 'POST',
+                        url: '/arqi/wp-content/themes/bootstrap2wordpress/controllers/mailer.php'
+
+                    }).then(function successCallback(response) {
+                          $log.log(response);
+                    }, function errorCallback(response) {
+                          $log.warn(response);
+                    });
+                
+            }
             
             //Email
             

@@ -230,7 +230,7 @@ get_header(); ?>
                     <h3 class="text-center header">{{resultsTitle}}</h3>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <a href="#EndContainer" class="btn btn-md btn-primary" ng-click="resultsArrow=true;endContainer=true;">Done</a>
+                    <a href="#EndContainer" class="btn btn-md btn-primary" ng-click="resultsArrow=true;endContainer=true;sendEmail();">Done</a>
                     <div class="arrow arrow-blue" ng-show="resultsArrow">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>

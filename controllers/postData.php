@@ -33,13 +33,14 @@ if ($conn->connect_error) {
 } 
 
 $sql = "INSERT INTO arqiResults (user_email, todays_date, time, question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, endResult)
-VALUES ($user_email, $todays_date, $time, $question1, $question2, $question3, $question4, $question5, $question6, $question7, $question8, $question9, $question10, 'NA')";
+VALUES ('$user_email', '$todays_date', '$time', '$question1', '$question2', '$question3', '$question4', '$question5', '$question6', '$question7', '$question8', '$question9', '$question10', '$endResult')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
+//Do the query
 
 $conn->close();
 ?>
