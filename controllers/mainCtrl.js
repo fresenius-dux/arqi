@@ -35,6 +35,18 @@ app
             $scope.question8 = false;
             $scope.question9 = false;
             $scope.question10 = false;
+    
+    
+            $scope.question1Answer = "";
+            $scope.question2Answer = "";
+            $scope.question3Answer = "";
+            $scope.question4Answer = "";
+            $scope.question5Answer = "";
+            $scope.question6Answer = "";
+            $scope.question7Answer = "";
+            $scope.question8Answer = "";
+            $scope.question9Answer = "";
+            $scope.question10Answer = "";
 
 
             //Posting AngularJS Data to PHP/MySQL
@@ -49,16 +61,16 @@ app
                     "userEmail": $scope.email,
                     "todaysDate": $scope.date,
                     "timeNow": $scope.time,
-                    "question1": $scope.question1.toString(),
-                    "question2": $scope.question2.toString(),
-                    "question3": $scope.question3.toString(),
-                    "question4": $scope.question4.toString(),
-                    "question5": $scope.question5.toString(),
-                    "question6": $scope.question6.toString(),
-                    "question7": $scope.question7.toString(),
-                    "question8": $scope.question8.toString(),
-                    "question9": $scope.question9.toString(),
-                    "question10": $scope.question10.toString(),
+                    "question1": $scope.question1Answer.toString(),
+                    "question2": $scope.question2Answer.toString(),
+                    "question3": $scope.question3Answer.toString(),
+                    "question4": $scope.question4Answer.toString(),
+                    "question5": $scope.question5Answer.toString(),
+                    "question6": $scope.question6Answer.toString(),
+                    "question7": $scope.question7Answer.toString(),
+                    "question8": $scope.question8Answer.toString(),
+                    "question9": $scope.question9Answer.toString(),
+                    "question10": $scope.question10Answer.toString(),
                     "endResult": $scope.resultsTitle
                   };
                   $log.info($scope.userData);
@@ -88,16 +100,16 @@ app
                     "userEmail": $scope.email,
                     "todaysDate": $scope.date,
                     "timeNow": $scope.time,
-                    "question1": $scope.question1.toString(),
-                    "question2": $scope.question2.toString(),
-                    "question3": $scope.question3.toString(),
-                    "question4": $scope.question4.toString(),
-                    "question5": $scope.question5.toString(),
-                    "question6": $scope.question6.toString(),
-                    "question7": $scope.question7.toString(),
-                    "question8": $scope.question8.toString(),
-                    "question9": $scope.question9.toString(),
-                    "question10": $scope.question10.toString(),
+                    "question1": $scope.question1Answer.toString(),
+                    "question2": $scope.question2Answer.toString(),
+                    "question3": $scope.question3Answer.toString(),
+                    "question4": $scope.question4Answer.toString(),
+                    "question5": $scope.question5Answer.toString(),
+                    "question6": $scope.question6Answer.toString(),
+                    "question7": $scope.question7Answer.toString(),
+                    "question8": $scope.question8Answer.toString(),
+                    "question9": $scope.question9Answer.toString(),
+                    "question10": $scope.question10Answer.toString(),
                     "endResult": $scope.resultsTitle
                   };
                   $log.info($scope.userData);

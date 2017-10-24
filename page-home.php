@@ -37,14 +37,14 @@ get_header(); ?>
                     <h3 class="text-center">Will an RTG drug or device be evaluated or be compared to another drug or device?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question1Yes = true;question1No = false;question2=false;question2Yes=false;question2No=false;question3 = false;question3Yes=false;question3No=false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;resultsArrow=false;endContainer=false;resultsContainer=true;resultsTitle='Consult Clinical Research Attorney';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question1Answer='Yes';question1Yes = true;question1No = false;question2=false;question2Yes=false;question2No=false;question3 = false;question3Yes=false;question3No=false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;resultsArrow=false;endContainer=false;resultsContainer=true;resultsTitle='Consult Clinical Research Attorney';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question1Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question2" class="btn btn-md btn-danger btn-block" ng-click="question1No = true;question1Yes = false;question2 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question2" class="btn btn-md btn-danger btn-block" ng-click="question1Answer='No';question1No = true;question1Yes = false;question2 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question1No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -56,14 +56,14 @@ get_header(); ?>
                     <h3 class="text-center">Does the project involve a drug or device used outside of usual medical practice, including non-FDA- approved drugs or devices, or off-button uses of FDA-approved drugs or devices?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question2Yes = true;question2No = false;question3 = false;question3Yes=false;question3No=false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question2Answer='Yes';question2Yes = true;question2No = false;question3 = false;question3Yes=false;question3No=false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question2Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question3" class="btn btn-md btn-danger btn-block" ng-click="question2No = true;question2Yes = false;question3 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question3" class="btn btn-md btn-danger btn-block" ng-click="question2Answer='No';question2No = true;question2Yes = false;question3 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question2No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -75,14 +75,14 @@ get_header(); ?>
                     <h3 class="text-center">Is this a systematic investigation designed with the intent to contribute to generalizable knowledge (i.e., testing a hypothesis; randomization; or observational research)?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question3Yes = true;question3No = false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question3Answer='Yes';question3Yes = true;question3No = false;question4 = false;question4Yes=false;question4No=false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question3Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question4" class="btn btn-md btn-danger btn-block" ng-click="question3No = true;question3Yes = false;question4 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question4" class="btn btn-md btn-danger btn-block" ng-click="question3Answer='No';question3No = true;question3Yes = false;question4 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question3No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -94,14 +94,14 @@ get_header(); ?>
                     <h3 class="text-center">Is the project receiving federal funding?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question4Yes = true;question4No = false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question4Answer='Yes';question4Yes = true;question4No = false;question5 = false;question5Yes=false;question5No=false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question4Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question5" class="btn btn-md btn-danger btn-block" ng-click="question4No = true;question4Yes = false;question5 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question5" class="btn btn-md btn-danger btn-block" ng-click="question4Answer='No';question4No = true;question4Yes = false;question5 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question4No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -113,14 +113,14 @@ get_header(); ?>
                     <h3 class="text-center">Will the project be described as research in grants, public presentations, or other representations? (QI findings may be published but may not be represented as research).</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question5Yes = true;question5No = false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question5Answer='Yes';question5Yes = true;question5No = false;question6 = false;question6Yes=false;question6No=false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question5Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question6" class="btn btn-md btn-danger btn-block" ng-click="question5No = true;question5Yes = false;question6 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question6" class="btn btn-md btn-danger btn-block" ng-click="question5Answer='No';question5No = true;question5Yes = false;question6 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question5No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -132,14 +132,14 @@ get_header(); ?>
                     <h3 class="text-center">Will the project place individuals at risk above the standard of care?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question6Yes = true;question6No = false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question6Answer='Yes';question6Yes = true;question6No = false;question7 = false;question7Yes=false;question7No=false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question6Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question7" class="btn btn-md btn-danger btn-block" ng-click="question6No = true;question6Yes = false;question7 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question7" class="btn btn-md btn-danger btn-block" ng-click="question6Answer='No';question6No = true;question6Yes = false;question7 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question6No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -151,14 +151,14 @@ get_header(); ?>
                     <h3 class="text-center">Will the project create a research database or registry containing PHI?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question7Yes = true;question7No = false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question7Answer='Yes';question7Yes = true;question7No = false;question8 = false;question8Yes=false;question8No=false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question7Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question8" class="btn btn-md btn-danger btn-block" ng-click="question7No = true;question7Yes = false;question8 = true;resultsContainer=false;endContainer=false;endContainer=false;resultsContainer=false;postData();">No</a>
+                    <a href="#Question8" class="btn btn-md btn-danger btn-block" ng-click="question7Answer='No';question7No = true;question7Yes = false;question8 = true;resultsContainer=false;endContainer=false;endContainer=false;resultsContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question7No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -170,14 +170,14 @@ get_header(); ?>
                     <h3 class="text-center">Will the project collect or use residual biological specimens?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question8Yes = true;question8No = false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question8Answer='Yes';question8Yes = true;question8No = false;question9 = false;question9Yes=false;question9No=false;question10 = false;question10Yes=false;question10No=false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered RESEARCH';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question8Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question9" class="btn btn-md btn-danger btn-block" ng-click="question8No = true;question8Yes = false;question9 = true;resultsContainer=false;endContainer=false;postData();">No</a>
+                    <a href="#Question9" class="btn btn-md btn-danger btn-block" ng-click="question8Answer='No';question8No = true;question8Yes = false;question9 = true;resultsContainer=false;endContainer=false;postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question8No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -189,14 +189,14 @@ get_header(); ?>
                     <h3 class="text-center">Is the aim to assess or improve a health care process, delivery of care or system within the standard of care?</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#Question10" class="btn btn-md btn-success btn-block" ng-click="question9Yes = true;question9No = false;question10 = true;question10Yes=false;question10No=false;resultsContainer=false;resultsArrow=false;endContainer=false;postData();">Yes</a>
+                    <a href="#Question10" class="btn btn-md btn-success btn-block" ng-click="question9Answer='Yes';question9Yes = true;question9No = false;question10 = true;question10Yes=false;question10No=false;resultsContainer=false;resultsArrow=false;endContainer=false;postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question9Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-danger btn-block" ng-click="question9No = true;question9Yes = false;question10 = false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project may or not be QI. PLEASE REQUEST CONSULTATION';postData();">No</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-danger btn-block" ng-click="question9Answer='No';question9No = true;question9Yes = false;question10 = false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project may or not be QI. PLEASE REQUEST CONSULTATION';postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question9No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
@@ -208,14 +208,14 @@ get_header(); ?>
                     <h3 class="text-center">Do the methods allow for flexibility and incremental changes? Examples include the PDSA (plan, do study, act)) cycle.</h3>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question10Yes = true;question10No = false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered QUALITY IMPROVEMENT';postData();">Yes</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-success btn-block" ng-click="question10Answer='Yes';question10Yes = true;question10No = false;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project is considered QUALITY IMPROVEMENT';postData();">Yes</a>
                     <div class="arrow arrow-green" ng-show="question10Yes">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
                     </div>
                 </div>
                 <div class="col-xs-6">
-                    <a href="#ResultsContainer" class="btn btn-md btn-danger btn-block" ng-click="question10Yes = false;question10No = true;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project may or not be QI. PLEASE REQUEST CONSULTATION';postData();">No</a>
+                    <a href="#ResultsContainer" class="btn btn-md btn-danger btn-block" ng-click="question10Answer='No';question10Yes = false;question10No = true;endContainer=false;resultsContainer=true;resultsArrow=false;resultsTitle='Project may or not be QI. PLEASE REQUEST CONSULTATION';postData();">No</a>
                     <div class="arrow arrow-red" ng-show="question10No">
                         <div class="rectangle"></div>
                         <div class="triangle-down"></div>
